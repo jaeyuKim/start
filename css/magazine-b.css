@@ -1,0 +1,94 @@
+/* CSS Document */
+*{margin: 0; padding: 0; font-size: 10px; } /* html 모든 태그 여백 제거 */
+a{text-decoration: none; color: inherit;} /* a태그 밑줄 제거 */
+li{list-style: none;} /* li태그 점표시 제거 */
+address, em, i{font-style: normal;}
+hr{border: none;}
+table{border-collapse: collapse;}
+textarea{resize: none;}
+body{background: #868686;}
+
+header{
+    position: fixed; z-index: 5000;
+    width: 100%;
+    height: 56px;
+    background: rgba(185,185,185,0.52);
+}
+header #header_inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1348px;
+    height: 56px;
+}
+#header_inner .nav{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin-top: 15px;
+}
+.nav li{}
+.nav li img{
+    width: 18.65px;
+    height: 21px;}
+
+.nav li a{
+    display: block;
+    color: white;
+    font-size: 1.8rem;
+}
+
+#header_inner #aside{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    margin-top: 15px;
+}
+#aside a{
+    display: block;
+    color: white;
+    font-size: 1.8rem;
+}
+#aside a img{
+    width: 17.5px;
+    height: 17.5px;
+}
+
+main{
+    position: relative;
+    bottom: 160px;
+    margin: 0 auto;
+    width: 100%;
+    max-height: 925px;
+}
+main .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }

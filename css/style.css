@@ -1,0 +1,9 @@
+/* CSS Document */
+*{margin: 0; padding: 0; } /* html 모든 태그 여백 제거 */
+		a{text-decoration: none; color: inherit;} /* a태그 밑줄 제거 */
+		li{list-style: none;} /* li태그 점표시 제거 */
+		address, em, i{font-style: normal;}
+		hr{border: none;}
+		table{border-collapse: collapse;}
+		textarea{resize: none;}
+

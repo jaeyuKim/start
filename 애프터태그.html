@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>after태그</title>
+	<link href="file:///C|/Users/tjoeun-602/Desktop/input태그 css/css/style.css" rel="stylesheet">
+	<link rel="shortcut icon" href="file:///C|/Users/tjoeun-602/Desktop/input태그 css/J.png">
+	<link rel="apple-touch-icon" href="file:///C|/Users/tjoeun-602/Desktop/input태그 css/J.png">
+	<meta name="naver-site-verification" content="256551a5c4b1cd83813a23d22909651a88a4338d" />
+	<mete name="keywords" content="짱유,재유,유재">
+	<mete name="description" content="재유">
+	<style> 
+		@font-face{
+			font-family: 'cys';
+			src: url("file:///C|/Users/tjoeun-602/Desktop/input태그 css/PyeongChangPeace-Bold.ttf");
+		}
+		
+		*{margin: 0; padding: 0; } /* html 모든 태그 여백 제거 */
+		a{text-decoration: none; color: inherit;} /* a태그 밑줄 제거 */
+		li{list-style: none;} /* li태그 점표시 제거 */
+		address, em, i{font-style: normal;}
+		hr{border: none;}
+		table{border-collapse: collapse;}
+		textarea{resize: none;}
+		ul{width: 1260px; height: 416px; background: #57938C;}
+		ul li{float: left; position: relative; width: 255px; height: 300px; padding: 40px 30px; background: #A227BD; cursor: pointer;}
+		ul li img{width: 255px; height: 300px; margin: 0 0 15px;}
+		ul li p{text-align: center; font-size: 18px; margin: -13px 0 0 0;}
+		
+		ul li::after{content: "자세히 보기"; position: absolute; display: none; top: 95px; right: 80px; width: 156px; height: 156px;
+						line-height: 156px; text-align: center; background: rgba(203,53,56,0.72); border-radius: 100px;
+						color: #FFFFFF; transition: 0.4;
+		}
+		ul li:hover::after{ display: block;
+		}
+		
+		
+		
+	</style>
+</head>
+
+<body>
+	
+	<ul>
+		<li>
+			<img src="img/공차 음료.png" alt="공차 음료">
+			<p>골든펄 돌체 밀크티</p>
+		</li>
+		
+		<li>
+			<img src="img/공차 음료2.png" alt="공차 음료">
+			<p>골든펄 돌체 밀크티 스무디</p>
+		</li>
+		
+		<li>
+			<img src="img/공차 음료3.png" alt="공차 음료">
+			<p>골든펄 딸기 캐모마일티</p>
+		</li>
+		
+		<li>
+			<img src="img/공차 음료4.png" alt="공차 음료">
+			<p>골든펄 망고 패션프릇 그린티</p>
+		</li>
+	</ul>
+</body>
+</html>
